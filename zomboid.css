@@ -1,0 +1,199 @@
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff0000;
+    text-align: center;
+    letter-spacing: 1em;
+}
+
+main {
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    display: block;
+    overflow: auto;
+}
+
+body {
+    background-image: linear-gradient(#000000, #5A5A5A);
+    background-repeat: no-repeat;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+hr {
+    border: 1px solid #FFFFFF;
+}
+
+nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #8b0000;
+    color: #ffcece;
+    font-size: 120%;
+    font-weight: bold;
+    padding: 1.5em;
+    float: left;
+    width: 160px;
+    border: 1px solid #FFFFFF;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    transition: color 2s linear;
+}
+
+nav ul {
+    font-size: 1.2em;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+
+}
+
+nav li {
+    margin: 19px 0;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 125%;
+}
+
+main h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ff0000;
+}
+
+main ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 110%;
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: #79ac5c;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #006e0f;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ffff00;
+}
+
+#homehero {
+    height: 240px;
+    background-image: url(banner.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 220px;
+}
+
+#whyhero {
+    height: 380px;
+    background-image: url(guybanner.jpg);
+    background-repeat: no-repeat;
+    background-size: 75% 75%;
+    margin-left: 220px;
+}
+
+.section-left {
+    float: left;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.section-right {
+    float: right;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.left p {
+    float: left;
+}
+
+table td,
+th {
+    padding: 0.5em;
+    border: 2px solid #FF0000;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #778899;
+    color: #000000;
+}
+
+.text {
+    text-align: left;
+}
+
+table {
+    border: 2px solid #FF0000;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+}
+
+#spiffohero {
+    background-image: url(spiffo.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 400px;
+    background-size: 100% 100%;
+    margin-left: 180px;
+}
+
+figcaption {
+    padding-top: 1em;
+    margin-left: 180px;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 140px;
+}
+
+input[type="reset"] {
+    margin-left: 140px;
+}
+
+h3 {
+    color: #FFFF00;
+}
+
+#smaller {
+    font-size: small;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bar_caption {
+    font-size: medium;
+    margin-left: 460px;
+}
